@@ -1,22 +1,9 @@
-<h1 align="center">Rubesh Viswanathan</h1>
+# Hey, I'm Rubesh 👋
 
-<p align="center">
-  Senior Software Engineer
-</p>
+Senior Software Engineer building reliable, scalable systems.
 
-<p align="center">
-  <em>I love building reliable, scalable systems. Big fan of Clean Architecture and Martin Scorsese.</em>
-</p>
+I'm a full stack engineer who cares about clean architecture, thoughtful design, and software that people can depend on. When I'm not writing code, you'll probably find me watching a Scorsese film.
 
-<br/>
-
-### About Me
-
-I'm a full stack engineer with a focus on designing systems that are built to last. I care deeply about clean code, thoughtful architecture, and shipping software that people can depend on.
-
-When I'm not writing code, you'll probably find me watching a Scorsese film.
-
-<br/>
 
 ### What I Work With
 
