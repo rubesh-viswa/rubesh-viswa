@@ -1,64 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117"/>
-      <stop offset="50%" style="stop-color:#161b22"/>
-      <stop offset="100%" style="stop-color:#0d1117"/>
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
     </linearGradient>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#58a6ff"/>
-      <stop offset="50%" style="stop-color:#bc8cff"/>
-      <stop offset="100%" style="stop-color:#f778ba"/>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e2e8f0"/>
+      <stop offset="100%" style="stop-color:#f8fafc"/>
     </linearGradient>
-    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0"/>
-      <stop offset="15%" style="stop-color:#58a6ff"/>
-      <stop offset="50%" style="stop-color:#bc8cff"/>
-      <stop offset="85%" style="stop-color:#f778ba"/>
-      <stop offset="100%" style="stop-color:#f778ba;stop-opacity:0"/>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a87c;stop-opacity:0"/>
+      <stop offset="20%" style="stop-color:#c9a87c"/>
+      <stop offset="80%" style="stop-color:#c9a87c"/>
+      <stop offset="100%" style="stop-color:#c9a87c;stop-opacity:0"/>
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="900" height="200" fill="url(#bg)" rx="8"/>
+  <rect width="900" height="180" fill="url(#bg)" rx="6"/>
 
-  <!-- Decorative dots -->
-  <circle cx="30" cy="30" r="2" fill="#58a6ff" opacity="0.3"/>
-  <circle cx="60" cy="18" r="1.5" fill="#bc8cff" opacity="0.25"/>
-  <circle cx="850" cy="45" r="2" fill="#f778ba" opacity="0.3"/>
-  <circle cx="820" cy="25" r="1.5" fill="#58a6ff" opacity="0.2"/>
-  <circle cx="780" cy="170" r="1.5" fill="#bc8cff" opacity="0.25"/>
-  <circle cx="120" cy="175" r="2" fill="#f778ba" opacity="0.2"/>
-  <circle cx="680" cy="22" r="1" fill="#58a6ff" opacity="0.3"/>
-  <circle cx="200" cy="180" r="1" fill="#bc8cff" opacity="0.3"/>
-
-  <!-- Terminal bracket decorations -->
-  <text x="50" y="108" font-family="'Courier New', monospace" font-size="60" fill="#58a6ff" opacity="0.15" font-weight="bold">{</text>
-  <text x="820" y="108" font-family="'Courier New', monospace" font-size="60" fill="#f778ba" opacity="0.15" font-weight="bold">}</text>
+  <!-- Subtle border -->
+  <rect x="1" y="1" width="898" height="178" fill="none" stroke="#c9a87c" stroke-opacity="0.12" rx="6"/>
 
   <!-- Name -->
-  <text x="450" y="90" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" fill="url(#textGrad)" text-anchor="middle" font-weight="700" filter="url(#glow)" letter-spacing="2">
+  <text x="450" y="82" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="url(#nameGrad)" text-anchor="middle" font-weight="400" letter-spacing="3">
     Rubesh Viswanathan
   </text>
 
   <!-- Accent line -->
-  <rect x="250" y="108" width="400" height="2" fill="url(#line)" rx="1"/>
+  <rect x="320" y="98" width="260" height="1" fill="url(#accent)"/>
 
   <!-- Title -->
-  <text x="450" y="140" font-family="'Courier New', monospace" font-size="16" fill="#8b949e" text-anchor="middle" letter-spacing="3">
+  <text x="450" y="128" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#c9a87c" text-anchor="middle" letter-spacing="4" font-weight="300">
     SENIOR SOFTWARE ENGINEER
-  </text>
-
-  <!-- Blinking cursor -->
-  <text x="598" y="140" font-family="'Courier New', monospace" font-size="16" fill="#58a6ff">
-    _
-    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
   </text>
 </svg>
