@@ -1,9 +1,11 @@
+<h1 align="center">Rubesh Viswanathan</h1>
+
 <p align="center">
-  <img src="./header.svg" alt="Rubesh Viswanathan - Senior Software Engineer" width="900"/>
+  Senior Software Engineer
 </p>
 
 <p align="center">
-  <em>Senior Software Engineer who loves building reliable, scalable systems.<br/>Big fan of Clean Architecture and Martin Scorsese.</em>
+  <em>I love building reliable, scalable systems. Big fan of Clean Architecture and Martin Scorsese.</em>
 </p>
 
 <br/>
