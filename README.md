@@ -67,12 +67,3 @@ When I'm not writing code, you'll probably find me watching a Scorsese film.
   </tr>
 </table>
 
-<br/>
-
----
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/rubesh-viswanathan/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-</p>
