@@ -1,6 +1,6 @@
 # Hey there! I'm Rubesh Viswanathan 👋
 
-Full stack Architect | React | Nest.js | Docker | Terraform | Kubernetes | GCP |
+Full stack Enterprise Architect | React | Nest.js | Docker | Terraform | Kubernetes | GCP |
 
 ### 🧑‍💻 About me
 
